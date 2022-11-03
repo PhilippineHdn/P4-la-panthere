@@ -28,7 +28,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -505,9 +504,28 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+
+.bloc-button {
+    display: block;
+    margin: auto;
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    height: 25px;
+    border-radius: 10px;
 }
 
 .scrollToTop {
@@ -654,9 +672,9 @@ a {
     color: #575757!important;
 }
 
-.container {
+/* .container {
     max-width: 1000px;
-}
+} */
 
 .hero-bloc-text {
     font-size: 38px;
@@ -813,6 +831,7 @@ h4 {
 }
 
 .bg-dots-bg {
+    text-align: center;
     background-image: url("img/dots-bg.png");
 }
 
