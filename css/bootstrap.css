@@ -2297,12 +2297,11 @@ pre code {
     .col-sm-3,
     .col-sm-4,
     .col-sm-5,
-    .col-sm-6,
     .col-sm-7,
     .col-sm-8,
     .col-sm-9 {
         float: left
-    }
+    } 
     .col-sm-12 {
         width: 100%
     }
@@ -2320,9 +2319,6 @@ pre code {
     }
     .col-sm-7 {
         width: 58.33333333%
-    }
-    .col-sm-6 {
-        width: 50%
     }
     .col-sm-5 {
         width: 41.66666667%
@@ -4224,7 +4220,6 @@ fieldset[disabled] .btn-link:hover {
 
 .btn-block {
     display: block;
-    width: 100%
 }
 
 .btn-block+.btn-block {
