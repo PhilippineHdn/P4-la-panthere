@@ -443,6 +443,10 @@ nav .caret {
     margin-bottom: 20px;
 }
 
+.subtitle {
+    text-transform: uppercase;
+}
+
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
